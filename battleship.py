@@ -140,9 +140,9 @@ def net_srv(screen):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     talk = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     listen = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.bind(('', 60229))
-    talk.bind(('', 60229))
-    listen.bind(('', 60229))
+    sock.bind(('', 55594))
+    talk.bind(('', 55595))
+    listen.bind(('', 55596))
     sock.listen(1); talk.listen(1); listen.listen(1); connected = False
 
     def connect():
@@ -188,10 +188,9 @@ def net_jn(screen):
                     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                     talk = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                     listen = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-                    print(text.value)
-                    sock.connect((text.value, 60229))
-                    listen.connect((text.value, 60229))
-                    talk.connect((text.value, 60229))
+                    sock.connect((text.value, 55594))
+                    listen.connect((text.value, 55595))
+                    talk.connect((text.value, 55596))
                     return (sock, talk, listen, text.value, 'client')
 
         screen.fill((255,255,255))
