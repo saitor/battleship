@@ -6,8 +6,7 @@ Install:
 2. pip install numpy
 3. Install ocempgui for UI to use
 4. unzip ocempgui-master.zip
-5. ocempgui-master
-6. python setup.py install
+5. python setup.py install
 
 Play:
 Please read readme.txt
