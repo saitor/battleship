@@ -5,9 +5,9 @@ Install:
 1. pip install pygame
 2. pip install numpy
 3. Install ocempgui for UI to use
-3.1 -> unzip ocempgui-master.zip
-3.2 -> cd ocempgui-master
-3.3 -> python setup.py install
+unzip ocempgui-master.zip
+ocempgui-master
+python setup.py install
 
 Play:
 Please read readme.txt
