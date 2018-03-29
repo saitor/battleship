@@ -8,9 +8,9 @@ Install:
 4. unzip ocempgui-master.zip
 5. python setup.py install
 
-Play:
-python battleship.py
-(Please read readme.txt)
+Play: (Please read readme.txt)
+1. python battleship.py
+
 
 Change log:
 1. 03/29/2018 -> Revise port is larger than 65535
